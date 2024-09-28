@@ -69,7 +69,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[900],
+      backgroundColor: Colors.yellow.shade900,
       body: Padding(
         padding: const EdgeInsets.fromLTRB(16, 40, 16, 0),
         child: Column(
@@ -79,7 +79,7 @@ class _HomeScreenState extends State<HomeScreen> {
               children: [
                 const Text(
                   'Notes',
-                  style: TextStyle(fontSize: 30, color: Colors.white),
+                  style: TextStyle(fontSize: 30, color: Colors.white, ),
                 ),
                 IconButton(
                   onPressed: () {
@@ -252,7 +252,7 @@ class _HomeScreenState extends State<HomeScreen> {
           }
         },
         elevation: 10,
-        backgroundColor: Colors.grey.shade800,
+        backgroundColor: Colors.white38,
         child: const Icon(
           Icons.add,
           size: 30.0,
