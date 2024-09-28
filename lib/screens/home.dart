@@ -252,7 +252,7 @@ class _HomeScreenState extends State<HomeScreen> {
           }
         },
         elevation: 10,
-        backgroundColor: Colors.white38,
+        backgroundColor: Colors.white,
         child: const Icon(
           Icons.add,
           size: 30.0,
